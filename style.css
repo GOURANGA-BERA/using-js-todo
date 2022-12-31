@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  min-height: 40vh;
+  background-image: url("pexels-andy-vu-3244513.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg {
+  background-color: black;
+  color: aliceblue;
+}
+
+.logo {
+  color: aqua;
+  font-size: 4vw;
+}
+/* 
+a {
+  text-decoration: none;
+  color: white;
+} */
+
+nav {
+  display: flex;
+}
+.list {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  margin-top: 20px;
+}
+
+li a {
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+
+.headline {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  color: chartreuse;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  background-color: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+}
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.todo input[type="text"] {
+  width: 40vw;
+  height: 5vh;
+}
+
+.todo input[type="submit"] {
+  width: 5vw;
+  height: 5vh;
+  background-color: chocolate;
+  border: none;
+}
+
+.todo {
+  margin-top: 20px;
+}
+
+.todo-list li {
+  background-color: rgb(14, 3, 46);
+  color: aliceblue;
+  font-size: 100%;
+  height: 50px;
+  text-align: left;
+  margin: 9px;
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todobtn {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* 
+label {
+  display: block;
+}
+
+input {
+  display: block;
+} */
+
+.signup {
+  margin: 20px;
+  background-color: rgb(27, 199, 93);
+  width: 30vw;
+  padding-left: 30px;
+  /* align-items: center; */
+  /* justify-content: center;
+  justify-items: center; */
+}
